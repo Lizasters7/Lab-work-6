@@ -18,9 +18,9 @@ class GameRules {
 public:
     GameRules(Number first, Number second);
 
-    Number number(int index) const;
-    Number sum() const;
-    Number target() const;
+    Number getNumber(int index) const;
+    Number getSum() const;
+    Number getTarget() const;
 
     bool canApply(const Move& move) const;
     void apply(const Move& move);
