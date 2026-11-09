@@ -8,10 +8,10 @@ std::string describe(const Move& move)
     std::string numberIndex;
     if (move.index == 0) 
     {
-        numberIndex = "перше";
+        numberIndex = "first";
     } else 
     {
-        numberIndex = "друге";
+        numberIndex = "second";
     }
 
     std::string actionText;

@@ -14,9 +14,9 @@ else()
 endif()
 
 add_executable(Lab-work-6
-    data.cpp
-    generator.cpp
-    timer.cpp
+    gameRules.cpp
+    randomStrategy.cpp
+    playerTask.cpp
     main.cpp
 )
 
