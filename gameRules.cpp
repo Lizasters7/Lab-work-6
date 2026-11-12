@@ -17,13 +17,13 @@ std::string describe(const Move& move)
     std::string actionText;
     if (move.action == Action::AddOne) 
     {
-        actionText = "+1 до числа";
+        actionText = "+1 to the number";
     } else if (move.action == Action::Double) 
     {
-        actionText = "x2 числа";
+        actionText = "x2 the number";
     } else 
     {
-        actionText = "/3 числа";
+        actionText = "/3 the number";
     }
 
     return actionText + " (" + numberIndex + ")";
@@ -39,6 +39,10 @@ GameRules::GameRules(Number first, Number second)
 Number GameRules::getNumber(int index) const 
 {
     return numbers[index];
+}
+
+Number GameRules::getSum() const {
+    return numbers[0] + numbers[1];
 }
 
 Number GameRules::getTarget() const 
