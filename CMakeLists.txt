@@ -18,6 +18,7 @@ add_executable(Lab-work-6
     randomStrategy.cpp
     playerTask.cpp
     game.cpp
+    reader.cpp
     main.cpp
 )
 
