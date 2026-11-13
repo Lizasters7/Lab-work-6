@@ -1,11 +1,9 @@
 #include "game.h"
 #include "reader.h"
-
 #include <exception>
 #include <fstream>
 #include <iostream>
 #include <random>
-
 #ifdef _WIN32
 #define NOMINMAX
 #include <windows.h>
